@@ -6,7 +6,8 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background-image: none; center no-repeat;
+  background-color: #333333;
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -21,16 +22,16 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: linear-gradient(to bottom, #f2f2f2, #e6e6e6);
 }
 
 h1, h2 {
-  font-family: 'Gabriela', serif;
+  font-family: 'Montserrat', serif;
   color: #fff;
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 42px;
   margin-bottom: 0;
 }
 
@@ -40,7 +41,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.5em;
   margin-top: .5em;
 }
